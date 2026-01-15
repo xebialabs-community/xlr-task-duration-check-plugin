@@ -61,7 +61,7 @@ if taskStatus == "IN_PROGRESS":
         timeSinceThreshold = elapsedDuration - alertThreshold
         if (timeSinceThreshold % alertFrequency) < pollIntervalMinutes:
             comment = "**ALERT**: Task *%s* has exceeded the alert threshold of %d minutes" % (taskToCheck, alertThreshold)
-            taskApi.commentTask(task.id, comment_text)
+            taskApi.commentTask(task.id, comment)
         task.setStatusLine("Task *%s* has exceeded the alert threshold" % taskToCheck)
         task.schedule("taskDuration/CheckDuration.py",pollInterval)
     elif elapsedDuration >= maxDuration:
