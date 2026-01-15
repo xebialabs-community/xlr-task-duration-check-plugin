@@ -1,0 +1,48 @@
+{
+  "id": {
+    "artifactId": "xlr-task-duration-check-plugin",
+    "groupId": "com.xebialabs.xlrelease.plugins",
+    "version": "1.0.0"
+  },
+  "metadata": {
+	  "updatedDate": "2026-01-14",
+    "logo" : "https://raw.githubusercontent.com/xebialabs-community/xlr-task-duration-check-plugin",
+    "popularity":"3",
+    "rating" : "3",
+    "reviewed" : "10",
+    "capability": ["ADD CAPABILITY HERE"],
+    "categories": [
+      "ADD CATEGORY HERE"
+    ],
+    "description": "ADD DESCRIPTION HERE",
+    "features": [
+      "ADD FEATURES HERE"
+    ],
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/xebialabs-community/xlr-task-duration-check-plugin"
+      },
+      {
+        "name": "Documentation",
+        "url": "https://github.com/xebialabs-community/xlr-task-duration-check-plugin#readme"
+      }
+    ],
+    "maturity": "Mature",
+    "name": "xlr-task-duration-check-plugin",
+    "requirements": {
+      "product": "XL Release",
+      "versions": [
+        "== LATEST","NEXT LATEST","ETC"
+      ]
+    },
+    "screenshots": [
+    ],
+    "supportedBy": "Community",
+    "author": {
+        "author": [],
+        "Community": ["CSM"],
+        "Partner": []
+    }
+  }
+}
