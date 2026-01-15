@@ -38,7 +38,7 @@ Ensure that this task has a person or team assigned, to ensure that the notifica
 - *Alert Moment* - When to alert if the task duration is to long. This is a time in minutes before the Maximum Duration
 - *Poll Interval* - Frequency of checking how long the task should be running
 - *Alert Frequency* - Frequency of alerts (in minutes) after Alert Treshold has passed
-- *Aler Frequency Max* - Frequency of alerts (in minutes) after Maximum Duration has been reached
+- *Alert Frequency Max* - Frequency of alerts (in minutes) after Maximum Duration has been reached
 
 ## References
 
